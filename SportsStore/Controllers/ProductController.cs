@@ -14,5 +14,10 @@ namespace SportsStore.Controllers
         {
             repository = repo;
         }
+
+        public ViewResult List()
+        {
+            return View(repository.Products);
+        }
     }
 }
