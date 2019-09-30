@@ -4,8 +4,7 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
+  <ItemGroup>   
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
